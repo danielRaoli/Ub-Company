@@ -1,0 +1,21 @@
+.main-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 150px;
+    height: 40px;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    border-radius: .75rem;
+    background-color:rgb(46, 46, 138);
+    color: orange;
+    font-family: 'Poppins';
+    transition: 500ms ease-in;
+}
+
+.main-button:hover{
+    transform: scale(1.08);
+    background-color: orange;
+    color:rgb(46, 46, 138);
+}

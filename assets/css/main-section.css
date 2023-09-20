@@ -1,0 +1,61 @@
+.main-section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    object-fit: contain;
+    box-sizing: border-box;
+    padding: 2rem 1.5rem;
+    overflow: hidden;
+    
+}
+
+.main-section.-grey{
+background-color: #e3e3e3;
+}
+
+.main-section.-grey .marcador{
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 5px;
+    color: orange;
+}
+
+.main-section .slogan{
+    width: inherit;
+    max-width: 600px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.main-section img{
+    width: 100%;
+
+}
+
+@media screen and (min-width:1100px) {
+
+    .main-section img{
+        transform: translateY(-40px);
+        width: 50%;
+    }
+    .main-section{
+        padding: 2rem 5rem;
+        flex-direction: row-reverse;
+        align-items: center;
+        
+    }
+
+    .main-section .main-title{
+        font-size: 4.5rem;
+    }
+
+    .main-section.main-section.-grey{
+        flex-direction: column;
+    }
+    
+    .main-section.main-section.-grey .main-title{
+        font-size: 3rem;
+    }
+}

@@ -1,0 +1,25 @@
+.preload{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    z-index: 100;
+    background-color:rgb(46, 46, 138); 
+    align-items: center;
+    justify-content: center;
+}
+
+.load-item{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 30px solid orange;
+    border-bottom: 30px solid transparent;
+    border-left:30px solid transparent;
+    background-color:transparent;
+    animation:load 600ms linear infinite;
+}
+
+@keyframes load {
+ 0%{transform: rotate(360deg)};
+}

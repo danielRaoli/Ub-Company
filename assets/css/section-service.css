@@ -1,0 +1,81 @@
+.section-service{
+    padding: 4rem 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+.section-service .services{
+    position: relative;
+    padding-top: 6rem;
+    overflow-y: hidden;
+}
+
+.section-service .services svg{
+    position: absolute;
+    top: 0px;
+}
+
+.section-service .services .wrapper-card{
+    padding: 0 1rem;
+}
+
+.section-service .services .main-title{
+    margin-top: 10%;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+
+.section-service .slogan{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 1rem;
+}
+
+.section-service .slogan img{
+    width: 100%;
+    
+}
+
+
+
+
+.services > .wrapper-card > .card-service {
+    background-color: #fff;
+    box-shadow: none;
+    height: auto;
+    justify-content: end;
+}
+
+
+@media screen and (min-width:1100px){
+    .section-service .slogan{
+        display: flex;
+        align-items: center;
+        padding: 0 5rem;
+        justify-content: center;
+    }
+    
+.section-service .slogan img{
+    width: 70%;
+    
+}
+
+    .section-service .slogan .description{
+        max-width: 400px;
+
+    }
+
+    .section-service .slogan .description p {
+        font-size: 1.25rem;
+    }
+
+    .section-service .services svg{
+        position: absolute;
+        top: -30px;
+    }
+    .section-service .services .wrapper-card{
+       display: flex; 
+       align-items: end;
+       justify-content: center;
+    }
+}

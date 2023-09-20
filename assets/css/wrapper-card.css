@@ -1,0 +1,23 @@
+.wrapper-card{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5rem;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+
+
+@media screen and (min-width:1100px) {
+    .wrapper-card{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (min-width:1100px) {
+    .wrapper-card{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+}

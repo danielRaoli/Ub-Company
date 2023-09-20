@@ -1,0 +1,10 @@
+.main-title{
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: start;
+    color: rgb(46, 46, 138);
+}
+
+.main-title span{
+    color: orange;
+}
